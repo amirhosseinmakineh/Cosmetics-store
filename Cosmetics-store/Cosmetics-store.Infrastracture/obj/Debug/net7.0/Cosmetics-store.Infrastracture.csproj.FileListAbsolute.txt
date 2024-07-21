@@ -1,0 +1,12 @@
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\bin\Debug\net7.0\Cosmetics-store.Infrastracture.deps.json
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\bin\Debug\net7.0\Cosmetics-store.Infrastracture.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\bin\Debug\net7.0\Cosmetics-store.Infrastracture.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.csproj.AssemblyReference.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.AssemblyInfoInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.AssemblyInfo.cs
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.csproj.CoreCompileInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\refint\Cosmetics-store.Infrastracture.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\ref\Cosmetics-store.Infrastracture.dll

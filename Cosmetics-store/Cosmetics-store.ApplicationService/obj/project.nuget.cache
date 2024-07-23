@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sUnH9kaPmwTL5uOPiE+SOh8FR+mKshD5jq/Ls+HJ5b0XDQk9iw03Rs3VOXaw2VB7+lOe/88eWp0ChjW0KE9S0g==",
+  "dgSpecHash": "twThxs41g0QTUcTIvDl19qbeylfuGeTurZVoXOuajQ2oNJBATdVga73/vKOAFD7XZ75+8PxyQrjtVSRGlXkPwA==",
   "success": true,
-  "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics-store.ApplicationService.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics_store.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

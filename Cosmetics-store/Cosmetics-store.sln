@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store", "Cosmetics-store\Cosmetics-store.csproj", "{45D7EBFE-985E-4244-A36F-2790E5D6CFCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store", "Cosmetics-store\Cosmetics-store.csproj", "{45D7EBFE-985E-4244-A36F-2790E5D6CFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.Domain", "Cosmetics-store.Domain\Cosmetics-store.Domain.csproj", "{8BC89B37-DFB1-451A-8CB7-CC67D65E2F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store.Domain", "Cosmetics-store.Domain\Cosmetics-store.Domain.csproj", "{8BC89B37-DFB1-451A-8CB7-CC67D65E2F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.Infrastracture", "Cosmetics-store.Infrastracture\Cosmetics-store.Infrastracture.csproj", "{0FA055AC-4F95-49EE-B645-60ED5EB93FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store.Infrastracture", "Cosmetics-store.Infrastracture\Cosmetics-store.Infrastracture.csproj", "{0FA055AC-4F95-49EE-B645-60ED5EB93FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.ApplicationService", "Cosmetics-store.ApplicationService\Cosmetics-store.ApplicationService.csproj", "{0CEAF596-4E84-4C02-853C-67B4A87578CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics_store.Application", "Cosmetics-store.ApplicationService\Cosmetics_store.Application.csproj", "{0CEAF596-4E84-4C02-853C-67B4A87578CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.ApplicationService.Contract", "Cosmetics-store.ApplicationService.Contract\Cosmetics-store.ApplicationService.Contract.csproj", "{130EDA1A-E707-4F88-BF0F-4BADA6BFEA7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store.Application.Contract", "Cosmetics-store.ApplicationService.Contract\Cosmetics-store.Application.Contract.csproj", "{130EDA1A-E707-4F88-BF0F-4BADA6BFEA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.Security", "Cosmetics-store.Security\Cosmetics-store.Security.csproj", "{71D5E8CE-D5C0-47C9-A9EC-CF20637E8573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store.Security", "Cosmetics-store.Security\Cosmetics-store.Security.csproj", "{71D5E8CE-D5C0-47C9-A9EC-CF20637E8573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmetics-store.UnitTest", "Cosmetics-store.UnitTest\Cosmetics-store.UnitTest.csproj", "{E11D7508-4E9B-4C37-BF00-6F8EEE5CBE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmetics-store.UnitTest", "Cosmetics-store.UnitTest\Cosmetics-store.UnitTest.csproj", "{E11D7508-4E9B-4C37-BF00-6F8EEE5CBE21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmeticStore.Framwork", "Cosmetic-Store.Framwork\CosmeticStore.Framwork.csproj", "{2C6581A4-659A-4852-AF8C-96A6D4AF743E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E11D7508-4E9B-4C37-BF00-6F8EEE5CBE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E11D7508-4E9B-4C37-BF00-6F8EEE5CBE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E11D7508-4E9B-4C37-BF00-6F8EEE5CBE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6581A4-659A-4852-AF8C-96A6D4AF743E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6581A4-659A-4852-AF8C-96A6D4AF743E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6581A4-659A-4852-AF8C-96A6D4AF743E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6581A4-659A-4852-AF8C-96A6D4AF743E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "R5Wf389BiAJXMlmHaOQjMaYcaL4Wt2bZkJd9mQNpFNQ/gIilNp6Q4YGecGrfvDY3bIDW5ZEvPZXQrdMYnNrZ4w==",
+  "dgSpecHash": "nkIsCjd05VbKIwTo21zfL9/bjawfOLyB8g0Lo3y8BJtZzRFe0B6t0IdGgO67riNnWp66O4jriEIJ8N6FnfusSA==",
   "success": true,
   "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store\\Cosmetics-store.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

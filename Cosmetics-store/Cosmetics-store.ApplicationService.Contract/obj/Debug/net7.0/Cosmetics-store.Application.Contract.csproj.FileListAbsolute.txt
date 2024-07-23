@@ -1,0 +1,11 @@
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\bin\Debug\net7.0\Cosmetics-store.Application.Contract.deps.json
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\bin\Debug\net7.0\Cosmetics-store.Application.Contract.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\bin\Debug\net7.0\Cosmetics-store.Application.Contract.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.AssemblyInfoInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.AssemblyInfo.cs
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.csproj.CoreCompileInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\refint\Cosmetics-store.Application.Contract.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\Cosmetics-store.Application.Contract.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService.Contract\obj\Debug\net7.0\ref\Cosmetics-store.Application.Contract.dll

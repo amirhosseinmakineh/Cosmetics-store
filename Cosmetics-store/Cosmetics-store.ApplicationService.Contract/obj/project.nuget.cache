@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PQ6XqRUk1dONBIFB+XBmm3AJlO29ULGVFyBR0UOYtEycwhrHFFoMstOsSzh8/1ksfsLBzGzySKFfjEmdDMuJoQ==",
+  "dgSpecHash": "cvQ6at/Fv7GRsqUs5hxOMvcJHHSNj089OadzhHdqfivNE8/IKlXZKC/nyxp8257GrBAam9TenykdL0ZA+SPnKQ==",
   "success": true,
-  "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.ApplicationService.Contract.csproj",
+  "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.Application.Contract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

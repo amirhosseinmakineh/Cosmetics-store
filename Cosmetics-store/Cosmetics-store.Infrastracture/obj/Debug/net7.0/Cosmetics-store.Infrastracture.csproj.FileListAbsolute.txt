@@ -10,3 +10,6 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\refint\Cosmetics-store.Infrastracture.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\ref\Cosmetics-store.Infrastracture.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\bin\Debug\net7.0\Cosmetics-store.Domain.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\bin\Debug\net7.0\Cosmetics-store.Domain.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.Infrastracture\obj\Debug\net7.0\Cosmetics-store.Infrastracture.csproj.CopyComplete

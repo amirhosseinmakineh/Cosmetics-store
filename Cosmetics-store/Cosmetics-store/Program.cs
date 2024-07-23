@@ -1,42 +1,20 @@
-using Microsoft.OpenApi.Models;
+using Cosmetics_store.Infrastracture.CosmeticsContext;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "Bamdad API",
-        Version = "v1",
-        Description = "Description for the API goes here.",
-    });
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
-    {
-        Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header,
-        Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",
-    });
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {
-                          new OpenApiSecurityScheme
-                            {
-                                Reference = new OpenApiReference
-                                {
-                                    Type = ReferenceType.SecurityScheme,
-                                    Id = "Bearer"
-                                }
-                            },
-                            new string[] {}
-
-                    }
-                });
-});
-
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+#region Register Context
+builder.Services.AddDbContext<CosmeticsStoreContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Cosmetics-store"));
+});
+#endregion
+#region Register CommandHandlers
+#endregion
+#region Register Repisitory
+#endregion
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {

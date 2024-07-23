@@ -1,0 +1,12 @@
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.AssemblyInfoInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.AssemblyInfo.cs
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.csproj.CoreCompileInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\bin\Debug\net7.0\Cosmetic-Store.Framwork.deps.json
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\bin\Debug\net7.0\Cosmetic-Store.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\bin\Debug\net7.0\Cosmetic-Store.Framwork.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.csproj.AssemblyReference.cache
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\refint\Cosmetic-Store.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmetic-Store.Framwork.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\ref\Cosmetic-Store.Framwork.dll

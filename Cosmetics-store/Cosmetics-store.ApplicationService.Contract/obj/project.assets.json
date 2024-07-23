@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.ApplicationService.Contract.csproj",
-      "projectName": "Cosmetics-store.ApplicationService.Contract",
-      "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.ApplicationService.Contract.csproj",
+      "projectUniqueName": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.Application.Contract.csproj",
+      "projectName": "Cosmetics-store.Application.Contract",
+      "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.Application.Contract.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
       "outputPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\obj\\",
       "projectStyle": "PackageReference",

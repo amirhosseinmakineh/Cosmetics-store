@@ -26,4 +26,12 @@
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cosmetics-store.Infrastracture\Cosmetics-store.Infrastracture.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Request\" />
+  </ItemGroup>
+
 </Project>

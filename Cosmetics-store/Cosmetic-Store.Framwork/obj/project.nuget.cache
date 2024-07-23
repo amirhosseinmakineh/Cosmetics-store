@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2H4DLQiIgdBrRd/CLSNdkH6ZfuyGZduIVlpO8Fuefu/8e2AgwNvaEtPtLLg8xaAXVA0ATN9h7Lm46lsgMcUemA==",
+  "success": true,
+  "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetic-Store.Framwork\\CosmeticStore.Framwork.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

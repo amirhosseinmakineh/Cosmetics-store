@@ -1,0 +1,12 @@
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.csproj.AssemblyReference.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.AssemblyInfoInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.AssemblyInfo.cs
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.csproj.CoreCompileInputs.cache
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics_store.Application.deps.json
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics_store.Application.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics_store.Application.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\refint\Cosmetics_store.Application.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\ref\Cosmetics_store.Application.dll

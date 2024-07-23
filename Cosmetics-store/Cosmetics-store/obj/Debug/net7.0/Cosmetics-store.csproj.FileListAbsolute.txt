@@ -73,3 +73,8 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store\obj\Debug\net7.0\Cosmetics-store
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\obj\Debug\net7.0\ref\Cosmetics-store.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\obj\Debug\net7.0\Cosmetics-store.MvcApplicationPartsAssemblyInfo.cs
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Infrastracture.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Infrastracture.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\AutoMapper.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Domain.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Domain.pdb

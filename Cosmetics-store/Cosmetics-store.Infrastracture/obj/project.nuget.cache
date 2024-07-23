@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0fV74J75SZvje98ZXcA3eHa4YjwwXw+MWwKYY3kYHI7UjnHvTyqVcleBMwUN2mBgfiWQyfC4TjjCExkBj8BNDg==",
+  "dgSpecHash": "vjFqdWRp2+1NU2RPeABcErFAzNs06KWUe12eHmKpndT9XV2Zp3p4agdHsAgeiian3WOXOJ6qZyyNToL6dES0Ww==",
   "success": true,
   "projectFilePath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.Infrastracture\\Cosmetics-store.Infrastracture.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

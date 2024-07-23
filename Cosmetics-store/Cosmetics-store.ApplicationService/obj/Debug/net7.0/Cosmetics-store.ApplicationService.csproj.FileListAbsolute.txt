@@ -9,3 +9,4 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\refint\Cosmetics-store.ApplicationService.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics-store.ApplicationService.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\ref\Cosmetics-store.ApplicationService.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics-store.ApplicationService.csproj.AssemblyReference.cache

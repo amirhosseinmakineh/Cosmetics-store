@@ -3,5 +3,6 @@
     public interface ICommandHandler<TCommand>
     {
         void Handle(TCommand command);
+        TCommand Handle();
     }
 }

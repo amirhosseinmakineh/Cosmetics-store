@@ -27,11 +27,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cosmetics-store.ApplicationService\Cosmetics_store.Application.csproj" />
     <ProjectReference Include="..\Cosmetics-store.Infrastracture\Cosmetics-store.Infrastracture.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Request\" />
   </ItemGroup>
 
 </Project>

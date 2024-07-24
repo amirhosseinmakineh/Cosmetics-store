@@ -6,7 +6,6 @@ namespace Cosmetics_store.Infrastracture
     {
         public MappingProfile()
         {
-            
         }
     }
 }

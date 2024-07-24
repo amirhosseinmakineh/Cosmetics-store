@@ -9,7 +9,7 @@ namespace Cosmetics_store.Domain.Models
         public bool IsDelete { get; set; }
         private DateTime createDate;
 
-        public DateTime MyProperty
+        public DateTime CreateDate
         {
             get { return createDate; }
             set { createDate = DateTime.Now; }

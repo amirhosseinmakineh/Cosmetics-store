@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cosmeticsstore.Infrastracture.Migrations
 {
     [DbContext(typeof(CosmeticsStoreContext))]
-    [Migration("20240723104939_CreateTableCategory")]
+    [Migration("20240723164130_CreateTableCategory")]
     partial class CreateTableCategory
     {
         /// <inheritdoc />
@@ -33,15 +33,15 @@ namespace Cosmeticsstore.Infrastracture.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
-
-                    b.Property<DateTime>("MyProperty")
-                        .HasColumnType("datetime2");
 
                     b.Property<int?>("ParentId")
                         .HasColumnType("int");

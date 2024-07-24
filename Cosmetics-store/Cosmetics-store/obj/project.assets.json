@@ -1268,6 +1268,36 @@
         "runtime": {
           "bin/placeholder/Cosmetics-store.Infrastracture.dll": {}
         }
+      },
+      "CosmeticStore.Framwork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Cosmetics-store.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CosmeticStore.Framwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CosmeticStore.Framwork.dll": {}
+        }
+      },
+      "Cosmetics_store.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CosmeticStore.Framwork": "1.0.0",
+          "Cosmetics-store.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cosmetics_store.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cosmetics_store.Application.dll": {}
+        }
       }
     }
   },
@@ -4038,11 +4068,22 @@
       "type": "project",
       "path": "../Cosmetics-store.Infrastracture/Cosmetics-store.Infrastracture.csproj",
       "msbuildProject": "../Cosmetics-store.Infrastracture/Cosmetics-store.Infrastracture.csproj"
+    },
+    "CosmeticStore.Framwork/1.0.0": {
+      "type": "project",
+      "path": "../Cosmetic-Store.Framwork/CosmeticStore.Framwork.csproj",
+      "msbuildProject": "../Cosmetic-Store.Framwork/CosmeticStore.Framwork.csproj"
+    },
+    "Cosmetics_store.Application/1.0.0": {
+      "type": "project",
+      "path": "../Cosmetics-store.ApplicationService/Cosmetics_store.Application.csproj",
+      "msbuildProject": "../Cosmetics-store.ApplicationService/Cosmetics_store.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Cosmetics-store.Infrastracture >= 1.0.0",
+      "Cosmetics_store.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -4086,6 +4127,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics_store.Application.csproj": {
+              "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics_store.Application.csproj"
+            },
             "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.Infrastracture\\Cosmetics-store.Infrastracture.csproj": {
               "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.Infrastracture\\Cosmetics-store.Infrastracture.csproj"
             }

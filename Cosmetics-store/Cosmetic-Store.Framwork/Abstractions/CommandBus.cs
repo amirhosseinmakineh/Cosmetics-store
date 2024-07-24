@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+
 namespace CosmeticStore.Framwork.Abstractions
 {
-    public class CommandBus : ICommandBus
+    public class CommandBus:ICommandBus
     {
         private readonly IServiceProvider serviceProvider;
 
@@ -16,7 +17,20 @@ namespace CosmeticStore.Framwork.Abstractions
             foreach(var handler in handlers)
             {
                 handler.Handle(command);
+                //handler.Handle();
             };
+        }
+        public TCommand DisPatch<TCommand>() where TCommand : ICommand
+        {
+            var handlers = serviceProvider.GetRequiredService<IEnumerable<ICommandHandler<TCommand>>>().ToList();
+            var command = Activator.CreateInstance<TCommand>();
+                foreach (var handler in handlers)
+                {
+                    //handler.Handle(command);
+                   command =  handler.Handle();
+                    return command;
+                };
+            return command;
         }
     }
 }

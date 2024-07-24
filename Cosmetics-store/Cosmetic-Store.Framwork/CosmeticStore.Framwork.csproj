@@ -9,4 +9,7 @@
 <ItemGroup>
 	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
 </ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\Cosmetics-store.Domain\Cosmetics-store.Domain.csproj" />
+</ItemGroup>
 </Project>

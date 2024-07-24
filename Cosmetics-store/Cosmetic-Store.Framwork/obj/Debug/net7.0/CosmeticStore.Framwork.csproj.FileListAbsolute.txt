@@ -10,3 +10,6 @@ D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\Cosmeti
 D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\refint\CosmeticStore.Framwork.dll
 D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\CosmeticStore.Framwork.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\ref\CosmeticStore.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\bin\Debug\net7.0\Cosmetics-store.Domain.dll
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\bin\Debug\net7.0\Cosmetics-store.Domain.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetic-Store.Framwork\obj\Debug\net7.0\CosmeticStore.Framwork.csproj.CopyComplete

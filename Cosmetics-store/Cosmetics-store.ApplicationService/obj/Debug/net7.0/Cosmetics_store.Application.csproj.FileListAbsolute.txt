@@ -10,3 +10,8 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\refint\Cosmetics_store.Application.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\ref\Cosmetics_store.Application.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics-store.Domain.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\CosmeticStore.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\CosmeticStore.Framwork.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics-store.Domain.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.csproj.CopyComplete

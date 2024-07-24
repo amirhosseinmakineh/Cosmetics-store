@@ -36,6 +36,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Cosmetics-store.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cosmetics-store.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cosmetics-store.Domain.dll": {}
+        }
       }
     }
   },
@@ -97,10 +107,16 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Cosmetics-store.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cosmetics-store.Domain/Cosmetics-store.Domain.csproj",
+      "msbuildProject": "../Cosmetics-store.Domain/Cosmetics-store.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Cosmetics-store.Domain >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0"
     ]
   },
@@ -136,7 +152,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.Domain\\Cosmetics-store.Domain.csproj": {
+              "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.Domain\\Cosmetics-store.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

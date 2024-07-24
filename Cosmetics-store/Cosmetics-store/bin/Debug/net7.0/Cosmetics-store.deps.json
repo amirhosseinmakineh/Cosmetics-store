@@ -9,6 +9,7 @@
       "Cosmetics-store/1.0.0": {
         "dependencies": {
           "Cosmetics-store.Infrastracture": "1.0.0",
+          "Cosmetics_store.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
@@ -693,6 +694,26 @@
         "runtime": {
           "Cosmetics-store.Infrastracture.dll": {}
         }
+      },
+      "CosmeticStore.Framwork/1.0.0": {
+        "dependencies": {
+          "Cosmetics-store.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+        },
+        "runtime": {
+          "CosmeticStore.Framwork.dll": {}
+        }
+      },
+      "Cosmetics_store.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "CosmeticStore.Framwork": "1.0.0",
+          "Cosmetics-store.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "runtime": {
+          "Cosmetics_store.Application.dll": {}
+        }
       }
     }
   },
@@ -1233,6 +1254,16 @@
       "sha512": ""
     },
     "Cosmetics-store.Infrastracture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CosmeticStore.Framwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cosmetics_store.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

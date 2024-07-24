@@ -22,7 +22,7 @@ namespace Cosmeticsstore.Infrastracture.Migrations
                     ParentId = table.Column<int>(type: "int", nullable: true),
                     SubParentId = table.Column<int>(type: "int", nullable: true),
                     IsDelete = table.Column<bool>(type: "bit", nullable: false),
-                    MyProperty = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    CreateDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

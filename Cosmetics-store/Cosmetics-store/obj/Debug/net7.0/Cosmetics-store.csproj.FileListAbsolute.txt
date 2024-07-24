@@ -78,3 +78,7 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\AutoMapper.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Domain.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Domain.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\CosmeticStore.Framwork.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics_store.Application.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics_store.Application.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\CosmeticStore.Framwork.pdb

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cosmetic-Store.Framwork\CosmeticStore.Framwork.csproj" />
+    <ProjectReference Include="..\Cosmetics-store.ApplicationService.Contract\Cosmetics-store.Application.Contract.csproj" />
     <ProjectReference Include="..\Cosmetics-store.Domain\Cosmetics-store.Domain.csproj" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>

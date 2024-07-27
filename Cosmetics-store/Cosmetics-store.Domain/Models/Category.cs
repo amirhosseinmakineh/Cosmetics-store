@@ -8,7 +8,7 @@ namespace Cosmetics_store.Domain.Models
         public Category()
         {
             Parents = new HashSet<Category>();
-            //SubParents = new HashSet<Category>();
+            Products = new HashSet<Product>();
         }
         [Required]
         public string Title { get; set; }
@@ -21,6 +21,7 @@ namespace Cosmetics_store.Domain.Models
         [ForeignKey("ParentId")]
         public Category Parent { get; set; }
         public ICollection<Category> Parents { get; set; }
+        public ICollection<Product> Products { get; set; }
         #endregion
     }
 }

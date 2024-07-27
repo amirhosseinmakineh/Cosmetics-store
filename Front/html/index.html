@@ -98,9 +98,38 @@ header .header .search-icon{
     .login input{
      width: 150px;
     }
+    header nav ul .dropdown-menu   {
+    background-color: black;
+}
+header nav {
+     background-color: black;
+     border-radius: 20px;
+}
+header nav ul .dropdown-menu li a{
+     color: white !important;
+     font-weight: bold;
+}
+header nav ul {
+     float: left;
+     direction: rtl;
+     margin: 0 69%;
+}
+header nav ul li a{
+     color: white !important;
+     font-weight: bold;
+}
+nav{
+     direction: rtl;
+}
+header nav .dropdown-menu li a:hover{
+     background-color: black !important;
+}
+header nav button {
+     background-color: white;
+}
      </style>
 </head>
-<body>
+<body onload="FetchCategory()">
      <header>
           <div class="container text-center header" >
                <div class="row">
@@ -129,6 +158,75 @@ header .header .search-icon{
                     </div>
                </div>
                </div>
+               <div class="container">
+                    <nav class="navbar navbar-expand-lg main_menu">
+                         <div class="container">
+                              <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                                   <i class="fas fa-bars bar_icon">
+                                   </i>
+                                   <i class="far fa-times close_icon">
+                                   </i>
+                                  </button>
+                           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto" id="navbar">
+                             <li class="nav-item">
+                              <a class="nav-link active" href="#">
+                               صفحه اصلی
+                              </a>
+                              </li>
+                            </ul>
+                           </div>
+                          </div>
+                       </nav>
+               </div>
      </header>
 </body>
+<script>
+     function FetchCategory(){
+          var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+fetch("https://localhost:44336/api/Category")
+.then(response => {
+         if (!response.ok) {
+           throw new Error(`Network response was not ok: ${response.status}`);
+         }
+         return response.json();
+       }).then(data=>{
+               for(var main in data.mainCategory)
+               {
+               if(data.mainCategory[main].parentId == null)
+               {
+               for(var parent in data.parentCategory)
+               {
+                    if(data.parentCategory[parent].parentId == data.mainCategory[main].id)
+                    {
+               let parentfrontCategory;
+               parentfrontCategory = 
+               `
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ${data.mainCategory[main].title}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+          <a class="dropdown-item" href="#">
+            ${data.parentCategory[parent].title}   
+            </a>
+            </li>
+          </ul>
+        </li>
+               `;
+          console.log(data.mainCategory[main].title);
+          console.log(data.parentCategory[parent].title);
+          const categoryContainer = document.getElementById('navbar');
+          categoryContainer.innerHTML += parentfrontCategory;
+                    }
+               }
+               }
+          }
+       })
+  .catch(error => console.log('error', error));
+     }
+</script>
 </html>

@@ -10,5 +10,8 @@ namespace Cosmetics_store.Infrastracture.CosmeticsContext
             
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+        public DbSet<ProductGallery> ProductGalleries { get; set; }
+        public DbSet<Color> Colors { get; set; }
     }
 }

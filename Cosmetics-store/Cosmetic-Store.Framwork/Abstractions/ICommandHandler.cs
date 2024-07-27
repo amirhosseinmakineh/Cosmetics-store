@@ -4,5 +4,6 @@
     {
         void Handle(TCommand command);
         TCommand Handle();
+        ICollection<TCommand> Handlelist();
     }
 }

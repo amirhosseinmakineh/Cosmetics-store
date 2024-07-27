@@ -15,3 +15,5 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\CosmeticStore.Framwork.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics-store.Domain.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\obj\Debug\net7.0\Cosmetics_store.Application.csproj.CopyComplete
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics-store.Application.Contract.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store.ApplicationService\bin\Debug\net7.0\Cosmetics-store.Application.Contract.pdb

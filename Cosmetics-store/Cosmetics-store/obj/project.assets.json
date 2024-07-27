@@ -1243,6 +1243,16 @@
           }
         }
       },
+      "Cosmetics-store.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cosmetics-store.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cosmetics-store.Application.Contract.dll": {}
+        }
+      },
       "Cosmetics-store.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1289,6 +1299,7 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "CosmeticStore.Framwork": "1.0.0",
+          "Cosmetics-store.Application.Contract": "1.0.0",
           "Cosmetics-store.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0"
         },
@@ -4059,6 +4070,11 @@
         "version.txt"
       ]
     },
+    "Cosmetics-store.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Cosmetics-store.ApplicationService.Contract/Cosmetics-store.Application.Contract.csproj",
+      "msbuildProject": "../Cosmetics-store.ApplicationService.Contract/Cosmetics-store.Application.Contract.csproj"
+    },
     "Cosmetics-store.Domain/1.0.0": {
       "type": "project",
       "path": "../Cosmetics-store.Domain/Cosmetics-store.Domain.csproj",
@@ -4082,6 +4098,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Cosmetics-store.Application.Contract >= 1.0.0",
       "Cosmetics-store.Infrastracture >= 1.0.0",
       "Cosmetics_store.Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
@@ -4127,6 +4144,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.Application.Contract.csproj": {
+              "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService.Contract\\Cosmetics-store.Application.Contract.csproj"
+            },
             "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics_store.Application.csproj": {
               "projectPath": "D:\\Backend\\shop\\Cosmetics-store\\Cosmetics-store.ApplicationService\\Cosmetics_store.Application.csproj"
             },

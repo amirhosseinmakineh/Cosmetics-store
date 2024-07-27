@@ -82,3 +82,5 @@ D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\CosmeticStore.F
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics_store.Application.dll
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics_store.Application.pdb
 D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\CosmeticStore.Framwork.pdb
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Application.Contract.dll
+D:\Backend\shop\Cosmetics-store\Cosmetics-store\bin\Debug\net7.0\Cosmetics-store.Application.Contract.pdb

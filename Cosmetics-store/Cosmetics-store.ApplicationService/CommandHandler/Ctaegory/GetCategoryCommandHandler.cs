@@ -14,7 +14,6 @@ namespace Cosmetics_store.ApplicationService.CommandHandler.Ctaegory
         {
             this.repository = repository;
         }
-
         public GetCategoryCommand Handle()
         {
             var getcategoryCommand = new GetCategoryCommand();
@@ -44,6 +43,11 @@ namespace Cosmetics_store.ApplicationService.CommandHandler.Ctaegory
 
         public void Handle(GetCategoryCommand command)
         {
+        }
+
+        public ICollection<GetCategoryCommand> Handlelist()
+        {
+            throw new NotImplementedException();
         }
     }
 }

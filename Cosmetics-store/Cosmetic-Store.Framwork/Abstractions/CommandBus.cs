@@ -32,5 +32,19 @@ namespace CosmeticStore.Framwork.Abstractions
                 };
             return command;
         }
+
+        public ICollection<TCommand> DisPatchList<TCommand>() where TCommand : ICommand
+        {
+            var handlers = serviceProvider.GetRequiredService<IEnumerable<ICommandHandler<TCommand>>>().ToList();
+            Type listCommand = typeof(List<TCommand>);
+            object command = Activator.CreateInstance(listCommand);
+            ICollection<TCommand> commands = (ICollection<TCommand>)command;
+            foreach (var handler in handlers)
+            {
+                commands = handler.Handlelist();
+                return commands;
+            };
+            return commands;
+        }
     }
 }
